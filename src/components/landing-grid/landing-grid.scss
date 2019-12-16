@@ -1,0 +1,31 @@
+.landing-grid {
+    height:400px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+    .landing-grid-block {
+        display:flex;
+        flex-direction:column;
+        justify-content:start;
+        align-items:start;
+        padding-left:10%;
+        padding-right:15%;
+        h3 {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom:26px;
+        }
+        h2 {
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 26px;
+        }
+        img {
+            height:175px;
+            width:auto;
+        }
+    }
+   
+}
