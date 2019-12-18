@@ -18,4 +18,27 @@
 .nav-links {
     color:white;
     display:flex;
+    min-width:25%;
+    justify-content: space-between;
+    margin-right:50px;
+
+    //Selecting children of the nav-links
+    * { 
+        cursor: pointer;
+        &:hover {
+        text-decoration: underline;
+        
+    }
+    }
+}
+
+.nav-apply-btn {
+    font-weight:600;
+    
+}
+
+.apply-arrow-right {
+    height:20px;
+    width:20px;
+    color:white;
 }

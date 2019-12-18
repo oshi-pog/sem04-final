@@ -9,7 +9,7 @@ function LandingHero() {
     return (
       <div className="landing-hero">
           <h1 className="landing-hero-h1">Data-driven marketing experts.</h1>
-          <h1 className="landing-hero-h1">We bring your projects to <span className="semi-bold"></span>life.</h1>
+          <h1 className="landing-hero-h1">We bring your projects to <span className="semi-bold">life.</span></h1>
             <ApplicationFormPopup/>
       </div>
     );
