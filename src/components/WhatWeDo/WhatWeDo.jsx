@@ -1,10 +1,13 @@
 import React from 'react';
+import { DoughnutExample } from './components/Doughnut';
 import './WhatWeDo.scss';
 
 function WhatWeDo() {
     return (
       <div className="what-we-do-grid">
-        <div className="what-bar-chart"></div>
+        <div className="what-bar-chart">
+          <DoughnutExample></DoughnutExample>
+        </div>
         <div className="what-text-box">
           <div className="what-green-heading">
             <h1 className="green-heading-text">It's a new era of e-commerce</h1>
