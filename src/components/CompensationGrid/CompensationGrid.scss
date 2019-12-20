@@ -175,8 +175,10 @@
         display:grid;
         grid-column-gap:200px;
         grid-template-columns:1fr;
-        margin-bottom:100px;
-        min-height:90vh;
+        margin-bottom:0;
+        min-height:auto;
+        margin-left:40px;
+        margin-right:40px;
     
     
     
@@ -194,7 +196,7 @@
         // Styling application button
         .compensation-apply-btn {
             font-weight:600;
-            margin-right:50px;
+            margin-right:0;
             color: #3ECF7F;
             font-size:18px;
     
