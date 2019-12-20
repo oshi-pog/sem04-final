@@ -1,6 +1,6 @@
-import React from 'react';
+import React from './node_modules/react';
 import logo from '../../../src/svgs/logo-ptd.svg';
-import './Navbar.scss';
+import './navbar.scss';
 import NavApplicationFormPopup from './components/NavApplicationButton';
 
 function Navbar() {
