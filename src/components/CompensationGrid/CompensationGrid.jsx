@@ -9,9 +9,9 @@ function CompensationGrid() {
     return (
       <div className="compensation-grid">
         <div className="compensation-green-box">
-            <img src={GoWhite} alt="Indiegogo Logo" className="compensation-logo logo-1"></img>
-            <img src={KsWhite} alt="Kickstarter Logo" className="compensation-logo logo-2" ></img>
-            <img src={ShWhite} alt="Shopify Logo" className="compensation-logo logo-3"></img>
+            <img src={GoWhite} alt="Indiegogo Logo" className="compensation-logo logo-1"  alt="whiteone" ></img>
+            <img  alt="whitetwo" src={KsWhite} alt="Kickstarter Logo" className="compensation-logo logo-2" ></img>
+            <img  alt="whitethree" src={ShWhite} alt="Shopify Logo" className="compensation-logo logo-3"></img>
         </div>
 
         <div className="compensation-text-box">

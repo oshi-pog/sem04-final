@@ -7,7 +7,7 @@ function Footer() {
     return (
       <div className="footer">
         <div className="footer-navbar">
-            <img src={footerLogo} className="footer-logo"></img>
+            <img src={footerLogo} className="footer-logo" alt=""></img>
             <div className="footer-nav-links">
                 <NavApplicationFormPopup/>
             </div>
