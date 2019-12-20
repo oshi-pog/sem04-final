@@ -1,3 +1,7 @@
+.footer {
+    margin-bottom:25px;
+}
+
 .footer-logo {
     width:250px;
     height:90px;
@@ -37,6 +41,17 @@
     justify-content:space-between;
     margin-left:50px;
     margin-right:50px;
+}
+
+.footer-email {
+    color:#9B9B9B;
+    text-decoration:none;
+}
+
+.footer-built-wrapper {
+    background: #FAFAFA;
+    border-radius: 81px;
+    padding: 5px 50px 5px;
 }
 
 .nav-apply-btn {

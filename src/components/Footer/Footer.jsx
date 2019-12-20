@@ -15,8 +15,8 @@ function Footer() {
         </div>
 
         <div className="footer-extra-links">
-          <p>Say hello@ptd-cph.com</p>
-          <div>Built by PTD © 2019</div>
+          <p>Say <a href="mailto:hello@ptd-cph.com" className="footer-email">hello@ptd-cph.com</a></p>
+          <div className="footer-built-wrapper"><p>Built by PTD © 2019</p></div>
         </div>
       </div>
     );
