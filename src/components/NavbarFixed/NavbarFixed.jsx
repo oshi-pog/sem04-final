@@ -1,14 +1,14 @@
-import React from './node_modules/react';
+import React from 'react';
 import logo from '../../../src/svgs/logo-ptd.svg';
-import './navbar.scss';
-import NavApplicationFormPopup from './components/NavApplicationButton';
+import './NavbarFixed.scss';
+import NavButton from './components/NavButton';
 
 function navbar() {
     return (
       <div className="navbar">
           <img src={logo} className="logo"></img>
           <div className="nav-links">
-              <NavApplicationFormPopup/>
+              <NavButton/>
           </div>
       </div>
     );

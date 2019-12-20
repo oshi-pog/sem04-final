@@ -1,9 +1,10 @@
 import React from 'react';
-import Navbar from './components/navbar/navbar'
+import './styles/style.scss';
+import NavbarFixed from './components/NavbarFixed/NavbarFixed';
 import LandingHero from './components/LandingHero/LandingHero';
 import LandingGrid from './components/LandingGrid/LandingGrid';
-import WhatWeDo from '././components/WhatWeDo/WhatWeDo';
-import './styles/style.scss';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
+
 import PortfolioGrid from './components/PortfolioGrid/PortfolioGrid';
 import Testimonials from './components/Testimonials/Testimonials';
 
@@ -14,7 +15,7 @@ import Footer from './components/Footer/Footer'
 function Home() {
   return (
     <div className="main">
-      <Navbar/>
+      <NavbarFixed/>
       <LandingHero/>
       <LandingGrid/>
       <WhatWeDo></WhatWeDo>

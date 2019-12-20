@@ -1,9 +1,8 @@
 import React from 'react';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
-import FontAwesome from 'react-fontawesome'
 
 
-class NavApplicationFormPopup extends React.Component {
+class NavButton extends React.Component {
   constructor(props) {
     super(props);
     this.openForm = this.openForm.bind(this);
@@ -29,17 +28,11 @@ class NavApplicationFormPopup extends React.Component {
             
           }}
         />
-        <div className="nav-apply-btn" onClick={this.openForm}>Apply Now <FontAwesome
-        className="apply-arrow-right"
-        name="arrow-right"
-        size="2x"
-        spin
-        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-      /></div>
+        <div className="nav-apply-btn" onClick={this.openForm}>Apply Now </div>
         
       </div>
     );
   }
 }
 
-export default NavApplicationFormPopup;
+export default NavButton;
