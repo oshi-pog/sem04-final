@@ -9,7 +9,6 @@ function Footer() {
         <div className="footer-navbar">
             <img src={footerLogo} className="footer-logo"></img>
             <div className="footer-nav-links">
-                <p>About Us</p>
                 <NavApplicationFormPopup/>
             </div>
         </div>

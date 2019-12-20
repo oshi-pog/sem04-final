@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import LandingHero from './components/LandingHero/LandingHero';
 import LandingGrid from './components/LandingGrid/LandingGrid';
 import WhatWeDo from '././components/WhatWeDo/WhatWeDo';

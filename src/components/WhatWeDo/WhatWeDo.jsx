@@ -1,12 +1,13 @@
 import React from 'react';
 import { DoughnutExample } from './components/Doughnut';
 import './WhatWeDo.scss';
+import Illustration from '../../svgs/illustration.svg'
 
 function WhatWeDo() {
     return (
       <div className="what-we-do-grid">
-        <div className="what-bar-chart">
-          { <DoughnutExample></DoughnutExample> }
+        <div className="what-illustration-box">
+          <img src={Illustration}></img>
         </div>
         <div className="what-text-box">
           <div className="what-green-heading">

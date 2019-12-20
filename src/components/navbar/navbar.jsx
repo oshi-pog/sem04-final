@@ -8,7 +8,6 @@ function Navbar() {
       <div className="navbar">
           <img src={logo} className="logo"></img>
           <div className="nav-links">
-              <p>About Us</p>
               <NavApplicationFormPopup/>
           </div>
       </div>
