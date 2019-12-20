@@ -36,12 +36,18 @@ iframe{
 }
 
 // Heading
+
+.compensation-grid {
+    .what-h1 {
+        padding-right:20%;
+    }
+}
 .what-h1 {
     font-weight: normal;
     font-size: 40px;
     line-height: 55px;
     margin-top:20px;
-
+    
     color: #222222;
     margin-bottom:40px;
 }
