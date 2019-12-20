@@ -3,6 +3,7 @@
     grid-column-gap:200px;
     grid-template-columns:1fr 1fr;
     min-height:700px;
+    margin-bottom:200px;
 }
 
 .what-bar-chart {
@@ -20,41 +21,4 @@ canvas {
     // Adds padding in the box for the text to be in the middle
     padding-top:20%;
     padding-bottom:20%;
-
-
-    .what-green-heading {
-        position:relative;
-    }
-
-    .green-heading-line {
-        width:50px;
-        border-bottom:3px solid #3ECF7F;
-    }
-    .green-heading-text {
-        font-size: 34px;
-        line-height: 51px;
-
-        color: #3ECF7F;
-    }
-
-    // Heading
-    .what-h1 {
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 75px;
-        margin-top:20px;
-
-        color: #222222;
-        margin-bottom:40px;
-    }
-
-    .what-p {
-        font-weight: 300;
-        font-size: 22px;
-        line-height: 33px;
-
-        color: #222222;
-        padding-right:20%;
-        margin-bottom:40px;
-    }
 }

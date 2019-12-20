@@ -1,9 +1,15 @@
 import React from 'react';
-import Navbar from './components/navbar/navbar';
-import LandingHero from './components/landing-hero/landing-hero';
-import LandingGrid from './components/landing-grid/landing-grid';
+import Navbar from './components/navbar/Navbar';
+import LandingHero from './components/LandingHero/LandingHero';
+import LandingGrid from './components/LandingGrid/LandingGrid';
 import WhatWeDo from '././components/WhatWeDo/WhatWeDo';
 import './styles/style.scss';
+import PortfolioGrid from './components/PortfolioGrid/PortfolioGrid';
+import Testimonials from './components/Testimonials/Testimonials';
+
+import CompensationGrid from './components/CompensationGrid/CompensationGrid'
+import ApplicationSection from './components/ApplicationSection/ApplicationSection'
+import Footer from './components/Footer/Footer'
 
 function Home() {
   return (
@@ -12,6 +18,11 @@ function Home() {
       <LandingHero/>
       <LandingGrid/>
       <WhatWeDo></WhatWeDo>
+      <PortfolioGrid/>
+      <Testimonials/>
+      <CompensationGrid/>
+      <ApplicationSection/>
+      <Footer/>
     </div>
   );
 }

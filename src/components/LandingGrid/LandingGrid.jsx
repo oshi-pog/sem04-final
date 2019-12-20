@@ -1,8 +1,8 @@
 import React from 'react';
-import './landing-grid.scss';
-import tech from '../../../src/svgs/tech.svg';
-import crowdfunding from '../../../src/svgs/crowdfunding.svg';
-import performance from '../../../src/svgs/performance.svg';
+import './LandingGrid.scss';
+import tech from '../../../src/svgs/laptop.svg';
+import crowdfunding from '../../../src/svgs/bullhorn.svg';
+import performance from '../../../src/svgs/money.svg';
 
 
 

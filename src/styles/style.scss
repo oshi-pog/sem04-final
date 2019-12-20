@@ -17,3 +17,41 @@
 iframe{
 
 }
+
+// Green heading 
+
+.what-green-heading {
+    position:relative;
+}
+
+.green-heading-line {
+    width:50px;
+    border-bottom:3px solid #3ECF7F;
+}
+.green-heading-text {
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #3ECF7F;
+}
+
+// Heading
+.what-h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top:20px;
+
+    color: #222222;
+    margin-bottom:40px;
+}
+
+.what-p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #222222;
+    padding-right:20%;
+    margin-bottom:40px;
+}

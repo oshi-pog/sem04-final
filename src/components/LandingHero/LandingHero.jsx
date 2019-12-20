@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../src/svgs/logo-ptd.svg';
-import './landing-hero.scss';
+import './LandingHero.scss';
 import ApplicationFormPopup from '../ApplicationButton/ApplicationButton';
 
 

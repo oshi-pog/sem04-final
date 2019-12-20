@@ -1,6 +1,6 @@
 .landing-grid {
-    height:400px;
-
+    height:280px;
+    margin-bottom:100px;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
 
@@ -17,14 +17,19 @@
             line-height: 26px;
             margin-bottom:26px;
         }
+
+        h4 {
+            height:20px;
+        }
         h2 {
             font-weight: 300;
             font-size: 22px;
             line-height: 26px;
         }
         img {
-            height:175px;
-            width:auto;
+            height:100px;
+            margin: auto auto auto 20px;
+            width:100px;
         }
     }
    
